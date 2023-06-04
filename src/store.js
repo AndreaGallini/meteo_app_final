@@ -112,7 +112,7 @@ export const store = reactive({
             var item = store.immagini[Math.floor(Math.random() * store.immagini.length)];
             
             immagine_sfondo.src = item.sorgente
-            console.log(immagine_sfondo);
+            // console.log(immagine_sfondo);
         },2000)
     }
     
