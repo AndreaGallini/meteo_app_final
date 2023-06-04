@@ -48,6 +48,7 @@
       <h1 id="cerca">Cerca una città</h1>
     </div>
     <p class="visite">Visite al sito : {{ count }}</p>
+    <div class="counterapi" style="min-height:44px"></div>
   </div>
 </template>
 
