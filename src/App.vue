@@ -47,39 +47,35 @@
     <div v-else>
       <h1 id="cerca">Cerca una città</h1>
     </div>
-    <p class="visite">Visite al sito : {{ count }}</p>
-    <div class="counterapi" style="min-height:44px"></div>
+
+
+
   </div>
 </template>
 
 <script>
 import SearchComponent from './components/SearchComponent.vue';
+import axios from "axios";
 import { store } from './store';
 import { onMounted } from 'vue';
+import countapi from 'countapi-js';
 export default {
   data() {
     return {
       store,
-      count: null,
+
 
     };
   },
-  methods: {
-    counter() { // you should probably use a better name here
-      const previousCount = Number(localStorage.getItem("incCount")) || 0;
-      this.count = previousCount + 1;
-      localStorage.setItem("incCount", this.count);
-      localStorage.getItem(this.count)
-      console.log(this.count);
-    }
-  },
+
   setup() {
     return {};
   },
   mounted() {
     store.getImg()
-    this.counter()
   },
+
+
   components: { SearchComponent }
 }
 </script>

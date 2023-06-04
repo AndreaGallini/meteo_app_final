@@ -11,6 +11,7 @@ export const store = reactive({
     resCity: null,
     rain: 'rain',
     norain: 'No rain',
+    counter_views : null,
     immagini: [
         {
             sorgente:'/img/weather/64x64/day/113.png'
@@ -114,7 +115,8 @@ export const store = reactive({
             immagine_sfondo.src = item.sorgente
             // console.log(immagine_sfondo);
         },2000)
-    }
+    },
+   
     
 
 })
