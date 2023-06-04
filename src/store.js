@@ -16,46 +16,46 @@ export const store = reactive({
             sorgente:'/img/weather/64x64/day/113.png'
         },
         {
-            sorgente:'../src/img/weather/64x64/day/371.png'
+            sorgente:'/img/weather/64x64/day/371.png'
         },
         {
-            sorgente:'../src/img/weather/64x64/day/326.png'
+            sorgente:'/img/weather/64x64/day/326.png'
         },
         {
-            sorgente:'../src/img/weather/64x64/day/230.png'
+            sorgente:'/img/weather/64x64/day/230.png'
         },
         {
-            sorgente:'../src/img/weather/64x64/day/182.png'
+            sorgente:'/img/weather/64x64/day/182.png'
         },
         {
-            sorgente:'../src/img/weather/64x64/day/200.png'
+            sorgente:'/img/weather/64x64/day/200.png'
         },
         {
-            sorgente:'../src/img/weather/64x64/day/176.png'
+            sorgente:'/img/weather/64x64/day/176.png'
         },
         {
-            sorgente:'../src/img/weather/64x64/day/116.png'
+            sorgente:'/img/weather/64x64/day/116.png'
         },
         {
-            sorgente:'../src/img/weather/64x64/day/266.png'
+            sorgente:'/img/weather/64x64/day/266.png'
         },
         {
-            sorgente:'../src/img/weather/64x64/day/329.png'
+            sorgente:'/img/weather/64x64/day/329.png'
         },
         {
-            sorgente:'../src/img/weather/64x64/day/305.png'
+            sorgente:'/img/weather/64x64/day/305.png'
         },
         {
-            sorgente:'../src/img/weather/64x64/day/395.png'
+            sorgente:'/img/weather/64x64/day/395.png'
         },
         {
-            sorgente:'../src/img/weather/64x64/day/392.png'
+            sorgente:'/img/weather/64x64/day/392.png'
         },
         {
-            sorgente:'../src/img/weather/64x64/day/365.png'
+            sorgente:'/img/weather/64x64/day/365.png'
         },
         {
-            sorgente:'../src/img/weather/64x64/day/350.png'
+            sorgente:'/img/weather/64x64/day/350.png'
         },
 
     ],
