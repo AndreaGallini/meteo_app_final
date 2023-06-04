@@ -13,7 +13,7 @@ export const store = reactive({
     norain: 'No rain',
     immagini: [
         {
-            sorgente:'../src/img/weather/64x64/day/113.png'
+            sorgente:'../dist/img/weather/64x64/day/113.png'
         },
         {
             sorgente:'../src/img/weather/64x64/day/371.png'
