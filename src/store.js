@@ -7,7 +7,7 @@ export const store = reactive({
     loader:false,
     long: '',
     immagine:null,
-    ReverseApiBaseUrl: 'http://api.openweathermap.org/geo/1.0/direct?q=',
+    ReverseApiBaseUrl: 'https://api.openweathermap.org/geo/1.0/direct?q=',
     resCity: null,
     rain: 'rain',
     norain: 'No rain',
